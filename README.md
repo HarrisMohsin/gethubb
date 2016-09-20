@@ -22,10 +22,12 @@ end
 
 ###### main
 
-`
+```
 gcc -c strarr.c
+
 gcc -c main.c
+
 gcc -o main.exe strarr.o main.o
-`
+```
 
 
