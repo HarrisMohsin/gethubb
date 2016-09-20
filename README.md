@@ -16,15 +16,16 @@ end
 
 ## compiling
 ###### independents:
-'gcc -o hello.exe hello.c'
+`gcc -o hello.exe hello.c`
 
-'gcc -o name.exe name.c'
+`gcc -o name.exe name.c`
 
 ###### main
 
-'
+`
 gcc -c strarr.c
 gcc -c main.c
 gcc -o main.exe strarr.o main.o
-'
+`
+
 
