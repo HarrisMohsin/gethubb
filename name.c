@@ -6,9 +6,12 @@ int main (void) {
 	
 	fgets(buffer, 255, stdin);
 
-	printf("/n%s", buffer);
+	//its '\n' for newline
+	//fgets already has newline at end, so '\n' should be at end
+	//you had: printf("/n%s", buffer);
+	printf("%s\n", buffer);
 
-return(0);
+/*TABS*/return(0);
 
 }
 
