@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<strings.h>
 
+#include"strarr.h"
 
 int init(char*** s_a_p) {
 	
